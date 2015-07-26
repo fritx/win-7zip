@@ -1,0 +1,18 @@
+{
+  "name": "7zip",
+  "version": "0.0.0",
+  "description": "7zip Installer via Node.js",
+  "keywords": [
+    "7z",
+    "7zip",
+    "7-zip",
+    "extract"
+    "install"
+  ],
+  "repository": "git@github.com:fritx/7zip.git",
+  "bin": {
+    "7z": "bin/7z.js"
+  },
+  "main": "index.js",
+  "license": "GNU LGPL"
+}
