@@ -1,7 +1,7 @@
 {
   "name": "7zip",
-  "version": "0.0.0",
-  "description": "7zip Installer via Node.js",
+  "version": "0.0.1",
+  "description": "7zip Installer via Node.js (Windows Only)",
   "keywords": [
     "7z",
     "7zip",
@@ -14,5 +14,8 @@
     "7z": "bin/7z.js"
   },
   "main": "index.js",
+  "os": [
+    "win32"
+  ],
   "license": "GNU LGPL"
 }

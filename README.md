@@ -1,4 +1,4 @@
-# 7zip Installer via Node.js
+# 7zip Installer via Node.js (Windows Only)
 
 This npm package contains a lite-version of [7zip](http://7-zip.org), ≈2.4MB. The implementation was partly learnt from [electron-prebuilt](https://github.com/mafintosh/electron-prebuilt)
 
