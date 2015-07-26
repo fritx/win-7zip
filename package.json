@@ -6,10 +6,10 @@
     "7z",
     "7zip",
     "7-zip",
-    "extract"
+    "extract",
     "install"
   ],
-  "repository": "git@github.com:fritx/7zip.git",
+  "repository": "git@github.com:fritx/node-7zip.git",
   "bin": {
     "7z": "bin/7z.js"
   },
