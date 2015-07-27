@@ -1,19 +1,22 @@
 {
   "name": "7zip",
-  "version": "0.0.1",
-  "description": "7zip Installer via Node.js (Windows Only)",
+  "version": "0.0.2",
+  "description": "7zip Windows Package via Node.js",
   "keywords": [
     "7z",
     "7zip",
     "7-zip",
-    "extract",
+    "windows",
     "install"
   ],
-  "repository": "git@github.com:fritx/node-7zip.git",
+  "repository": "git@github.com:fritx/win-7zip.git",
   "bin": {
-    "7z": "bin/7z.js"
+    "7z": "7zip-lite/7z.exe"
   },
   "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
   "os": [
     "win32"
   ],
