@@ -1,6 +1,6 @@
 {
   "name": "7zip",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "7zip Windows Package via Node.js",
   "keywords": [
     "7z",
@@ -17,8 +17,5 @@
   "scripts": {
     "test": "mocha"
   },
-  "os": [
-    "win32"
-  ],
   "license": "GNU LGPL"
 }
