@@ -6,6 +6,8 @@ This npm package contains a lite-version of [7zip](http://7-zip.org), ≈2.4MB.
 
 And the goal is to bring users a different and easy way to access 7zip.
 
+Being used at library [cross-unzip](https://github.com/fritx/cross-unzip).
+
 ```plain
 $ npm install -g 7zip   # global
 ```
@@ -18,7 +20,7 @@ $ 7z --help   # and you get 7z
 // $ npm install 7zip   # local
 // even in node.js
 var _7z = require('7zip')['7z']
-var task = spawn(_7z, ['x', 'somefile.7z'])
+var task = spawn(_7z, ['x', 'somefile.7z', '-y'])
 ```
 
 ## License of 7zip
