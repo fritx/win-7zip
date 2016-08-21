@@ -1,5 +1,5 @@
 var resolve = require('path').resolve
-var bin = require('./package').bin
+var bin = require('./package.json').bin
 
 module.exports = map_obj(bin, function(v){
   return resolve(__dirname, v)
