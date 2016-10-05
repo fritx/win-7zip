@@ -1,6 +1,6 @@
 {
-  "name": "7zip",
-  "version": "0.0.6",
+  "name": "win-7zip",
+  "version": "0.1.0",
   "description": "7zip Windows Package via Node.js",
   "keywords": [
     "7z",

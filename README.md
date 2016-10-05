@@ -17,9 +17,9 @@ $ 7z --help   # and you get 7z
 ```
 
 ```js
-// $ npm install 7zip   # local
+// $ npm install win-7zip   # local
 // even in node.js
-var _7z = require('7zip')['7z']
+var _7z = require('win-7zip')['7z']
 var task = spawn(_7z, ['x', 'somefile.7z', '-y'])
 ```
 
