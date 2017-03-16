@@ -1,6 +1,88 @@
 HISTORY of the 7-Zip
 --------------------
 
+16.04          2016-10-04
+-------------------------
+- The bug was fixed: 7-Zip 16.03 exe installer under Vista didn't create 
+  links in Start / Programs menu.
+- Some bugs were fixed in RAR code.
+
+
+16.03          2016-09-28
+-------------------------
+- Installer and SFX modules now use some protection against DLL preloading attack.
+- Some bugs were fixed in 7z, NSIS, SquashFS, RAR5 and another code.
+
+
+16.02          2016-05-21
+-------------------------
+- 7-Zip now can extract multivolume ZIP archives (z01, z02, ... , zip).
+- Some bugs were fixed.
+
+
+15.14          2015-12-31
+-------------------------
+- 7-Zip File Manager:
+  - The code for "Open file from archive" operation was improved.
+  - The code for "Tools/Options" window was improved.
+  - The BUG was fixed: there was incorrect mouse cursor capture for 
+    drag-and-drop operations from open archive to Explorer window.
+- Some bugs were fixed.
+- New localization: Yoruba.
+
+
+15.12          2015-11-19
+-------------------------
+- The release version.
+
+
+15.11 beta     2015-11-14
+-------------------------
+- Some bugs were fixed.
+
+
+15.10 beta     2015-11-01
+-------------------------
+- The BUG in 9.21 - 15.09 was fixed:
+  7-Zip could ignore some parameters, specified for archive creation operation
+  for gzip and bzip2 formats in "Add to Archive" window and in command line 
+  version (-m switch).
+- Some bugs were fixed.
+
+
+15.09 beta     2015-10-16
+-------------------------
+- 7-Zip now can extract ext2 and multivolume VMDK images.
+- Some bugs were fixed.
+
+
+15.08 beta     2015-10-01
+-------------------------
+- 7-Zip now can extract ext3 and ext4 (Linux file system) images.
+- Some bugs were fixed.
+
+
+15.07 beta     2015-09-17
+-------------------------
+- 7-Zip now can extract GPT images and single file QCOW2, VMDK, VDI images.
+- 7-Zip now can extract solid WIM archives with LZMS compression.
+- Some bugs were fixed.
+
+
+15.06 beta     2015-08-09
+-------------------------
+- 7-Zip now can extract RAR5 archives.
+- 7-Zip now doesn't sort files by type while adding to solid 7z archive.
+- new -mqs switch to sort files by type while adding to solid 7z archive.
+- The BUG in 7-Zip File Manager was fixed:
+  The "Move" operation to open 7z archive didn't delete empty files.
+- The BUG in 15.05 was fixed:
+  console version added some text to the end of stdout stream, is -so switch was used. 
+- The BUG in 9.30 - 15.05 was fixed:
+  7-Zip could not open multivolume sfx RAR archive.
+- Some bugs were fixed.
+
+
 15.05 beta     2015-06-14
 -------------------------
 - 7-Zip now uses new installer.
