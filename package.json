@@ -15,7 +15,12 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "ava"
+  },
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "cross-unzip": "^0.2.0",
+    "fs-extra-promise": "^0.4.1"
   },
   "license": "GNU LGPL"
 }

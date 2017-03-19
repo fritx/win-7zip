@@ -1,18 +1,21 @@
-var assert = require('assert')
-var resolve = require('path').resolve
-var exists = require('fs').exists
+let test = require('ava')
+let fs = require('fs-extra-promise')
+let { exec } = require('child_process')
+let { join, dirname } = require('path')
+let  _7z = require('./')['7z']
 
-describe('win-7zip', function(){
+test('should get path of 7z.exe', async t => {
+  let _7z_exe = join(__dirname, '7zip-lite', '7z.exe')
+  t.is(_7z, _7z_exe)
 
-  it('should get path of 7z.exe', function(done){
-    var _7z_exe = resolve(__dirname, '7zip-lite/7z.exe')
-    var _7z = require('./')['7z']
-
-    assert.equal(_7z, _7z_exe)
-    exists(_7z, function(flag){
-      assert(flag)
-      done()
-    })
-  })
-
+  let exists = await fs.existsAsync(_7z)
+  t.true(exists)
 })
+
+// dependent cross-unzip should work
+// inside which win-7zip should link to current project
+// ie. ln -s $(pwd) node_modules/cross-unzip/node_modules/win-7zip
+let src = __dirname
+let dest = join(__dirname, 'node_modules', 'cross-unzip', 'node_modules', 'win-7zip')
+fs.ensureSymlinkSync(src, dest, 'junction')
+require('cross-unzip/test/test')
