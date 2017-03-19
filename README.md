@@ -1,6 +1,6 @@
 # 7zip Windows Package via Node.js
 
-<a href="https://www.npmjs.com/package/7zip"><img width="134" height="20" src="https://img.shields.io/npm/dm/7zip.svg"></a>&nbsp;&nbsp;<a href="https://github.com/fritx/win-7zip"><img width="84" height="20" src="https://img.shields.io/badge/license-LGPL-yellow.svg"></a>
+<a href="https://www.npmjs.com/package/7zip"><img height="20" src="https://img.shields.io/npm/dm/7zip.svg"></a>&nbsp;&nbsp;<a href="https://github.com/fritx/win-7zip"><img width="84" height="20" src="https://img.shields.io/badge/license-LGPL-yellow.svg"></a>&nbsp;&nbsp;<a href="https://ci.appveyor.com/project/fritx/win-7zip/branch/dev"><img height="20" src="https://ci.appveyor.com/api/projects/status/sx35sohgttwtemuo/branch/dev?svg=true"></a>
 
 This npm package contains a lite-version of [7zip](http://7-zip.org), ≈2.4MB.
 
