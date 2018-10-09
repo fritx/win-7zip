@@ -1,12 +1,11 @@
 let test = require('ava')
 let fs = require('fs-extra-promise')
-let { exec } = require('child_process')
-let { join, dirname } = require('path')
+let { join } = require('path')
 
 test.serial('should get path of 7z.exe', async t => {
   let _7z = require('./')['7z']
-  let _7z_exe = join(__dirname, '7zip-lite', '7z.exe')
-  t.is(_7z, _7z_exe)
+  // let _7z_exe = join(__dirname, '7zip-lite', '7z.exe')
+  // t.is(_7z, _7z_exe)
 
   let exists = await fs.existsAsync(_7z)
   t.true(exists)
