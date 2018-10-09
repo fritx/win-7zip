@@ -11,7 +11,7 @@
   ],
   "repository": "git@github.com:fritx/win-7zip.git",
   "bin": {
-    "7z": "7zip-lite/7z.exe"
+    "7z": "7z1805.exe"
   },
   "main": "index.js",
   "scripts": {
